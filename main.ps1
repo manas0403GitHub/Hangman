@@ -234,7 +234,7 @@ function hangman_levels{
  
                  $lifes = 0
                  hangman_levels $lifes
-                 $correctLetters.Clear
+                 $correctLetters = @()
              } else {
                  Stop-Job
              }
@@ -254,7 +254,7 @@ function hangman_levels{
                  $lifes = 0
                  hangman_levels $lifes
  
-                 $correctLetters.Clear
+                 $correctLetters = @()
  
              } else {
                  Stop-Job
